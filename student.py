@@ -6,7 +6,7 @@ class student:
 
     def display(self):
         print("Name:",self.name)
-        print9"AAge:",self.age)
+        print9"Age:",self.age)
         print("Marks:",self.marks)
 
         s1 = Student("Rahul",20,85)
