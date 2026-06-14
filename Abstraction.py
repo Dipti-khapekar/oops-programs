@@ -1,0 +1,18 @@
+class Shape(ABC):
+
+    @abstractmethod
+    def area(self):
+        pass
+
+
+class Circle(Shape):
+
+    def __init__(self,radius):
+        self.radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+
+caches = Circle(5)
+
+print("Area:",caches.area())
