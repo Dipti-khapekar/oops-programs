@@ -15,6 +15,6 @@ class Circle(Shape):
     def area(self):
         return 3.14 * self.radius * self.radius
 
-caches = Circle(5)
+c = Circle(5)
 
 print("Area:",caches.area())
